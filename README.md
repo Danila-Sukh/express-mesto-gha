@@ -1,17 +1,24 @@
-[![Tests](https://github.com/yandex-praktikum/express-mesto-gha/actions/workflows/tests-13-sprint.yml/badge.svg)](https://github.com/yandex-praktikum/express-mesto-gha/actions/workflows/tests-13-sprint.yml) [![Tests](https://github.com/yandex-praktikum/express-mesto-gha/actions/workflows/tests-14-sprint.yml/badge.svg)](https://github.com/yandex-praktikum/express-mesto-gha/actions/workflows/tests-14-sprint.yml)
-# Проект Mesto фронтенд + бэкенд
+# Бэкенд для проекта Mesto 
 
+## Проектная работа №14 с последующей доработкой и деплоем на сервер
 
+###  Курс веб-программирования Яндекс Практикум 
 
-## Настройка бейджей статуса тестов
-Перед началом работы над проектом рекомендуется исправить бейджи, отражающие статус прохождения тестов.
-Для этого замените разметку бейджей на следующий фрагмент, подставив вместо `${имя_пользователя}` и `${имя_репозитория}` соответствующие значения.
+**О чем проект?** 
 
-```
-[![Tests for sprint 13](https://github.com/${имя_пользователя}/${имя репозитория}/actions/workflows/tests-13-sprint.yml/badge.svg)](https://github.com/${имя_пользователя}/${имя репозитория}/actions/workflows/tests-13-sprint.yml) 
+REST API для проектной работы "Mesto". "Mesto" - адаптивное одностраничное приложение с использованием языков разметки html и css и языка веб-программирования java script и фреймворка React.
 
-[![Tests for sprint 14](https://github.com/${имя_пользователя}/${имя репозитория}/actions/workflows/tests-14-sprint.yml/badge.svg)](https://github.com/${имя_пользователя}/${имя репозитория}/actions/workflows/tests-14-sprint.yml)
-```
+[Ссылка](https://github.com/Danila-Sukh/express-mesto-gha) на проект 9-12 спринтов, реализованный в фреймворке React
+
+Самостоятельная проектная работа нацелена на закрепление пройденного материала из тренажера платформы Яндекс Практикума. В проектной работе были применены следующие пройденные темы: 
+
+1. NodeJS
+2. Express
+3. MongoDB
+4. Mongoose
+5. Авторизация
+6. Защита маршрутов
+7. Валидация ошибок
 
 
 ## Директории
@@ -26,5 +33,3 @@
 
 `npm run start` — запускает сервер   
 `npm run dev` — запускает сервер с hot-reload
-
-https://github.com/Danila-Sukh/express-mesto-gha
